@@ -1,0 +1,30 @@
+{
+  "checksums": {
+    "spec/spec_helper.rb": "ca19ec4f451ebc7fdb035b52eae6e909",
+    "files/init_db.sql": "21afd5fb330fcf64b8747d65a8f01569",
+    "manifests/server.pp": "d0fcabbdd09f6cf38792c1f6c2bb35db",
+    "CHANGELOG": "c1c926302b2ab4ee2933505c0a190cc0",
+    "README": "9320d31e837cb7a6ceca743b96046e59",
+    "files/my.cnf": "0581fc55fa35e55657a5d50665c8fbbe",
+    "tests/init.pp": "6b34827ac4731829c8a117f0b3fb8167",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "metadata.json": "d34d0b70aba36510fbc2df4e667479ef",
+    "Modulefile": "e8e314c2be5645f38514db86cc84b946",
+    "manifests/init.pp": "92cfd5b3d076837d22eab8ce6ad7b787"
+  },
+  "version": "1.0.1",
+  "dependencies": [
+    {
+      "version_requirement": ">= 1.0.0",
+      "name": "ghoneycutt/mylvmbackup"
+    },
+    {
+      "version_requirement": ">= 1.0.0",
+      "name": "ghoneycutt/puppet"
+    }
+  ],
+  "name": "ghoneycutt-mysql",
+  "types": [
+
+  ]
+}
